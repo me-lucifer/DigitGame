@@ -104,6 +104,7 @@ class _InputPageState extends State<InputPage> {
                         Row(
                           children: <Widget>[
                             Expanded(
+                              flex: 1,
                               child: ClipRRect(
                                 borderRadius: BorderRadius.circular(15.0),
                                 child: Image.asset(
@@ -117,7 +118,7 @@ class _InputPageState extends State<InputPage> {
                             Column(
                               children: <Widget>[
                                 Text(
-                                  "3",
+                                  "३",
                                   style: TextStyle(
                                       fontSize: 70,
                                       fontWeight: FontWeight.bold),
