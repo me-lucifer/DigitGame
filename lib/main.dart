@@ -2,6 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:audioplayers/audio_cache.dart';
 import 'input_page.dart';
+import 'testing_page.dart';
 
 void main() => runApp(DigitGame());
 
@@ -13,6 +14,7 @@ class DigitGame extends StatelessWidget {
         primaryColor: Colors.teal,
         scaffoldBackgroundColor: Colors.teal[200],
       ),
+      //home: InputPage(),
       home: InputPage(),
     );
   }
